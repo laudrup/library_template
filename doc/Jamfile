@@ -257,7 +257,7 @@ install images
 
 explicit images ;
 
-xml beast_doc
+xml library_template_doc
     :
         qbk/main.qbk
     :
@@ -275,7 +275,7 @@ explicit beast_doc ;
 
 boostbook library_template
     :
-        beast_doc
+        library_template_doc
     :
         <xsl:param>boost.root=../../../..
         <xsl:param>chapter.autolabel=1
